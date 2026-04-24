@@ -1,0 +1,19 @@
+[project]
+name = "tag-recommender-bpr"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "tqdm>=4.65",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["TagRecommender*"]
