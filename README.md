@@ -4,7 +4,7 @@ My code for a university project on recommender systems using tensor decompositi
 
 Included are the models themselves, and a short script comparing them on the Delicious dataset retrieved from the HetRec 2011 workshop dataset. It can be found at https://grouplens.org/datasets/hetrec-2011/
 
-The package with the models can be installed using pip install -e . in the root folder. The original project notebook, without separation into a library is also included in the root folder.
+The package with the models can be installed using ```pip install -e .``` in the root folder. The original project notebook, without separation into a library is also included in the root folder.
 
 ## References
 
